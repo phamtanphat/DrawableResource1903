@@ -6,14 +6,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:gravity="center">
+    >
 
     <Button
         android:background="@drawable/button_shape"
         android:id="@+id/buttonShapedrawable"
         android:text="Shape Drawable"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
    
 
 </RelativeLayout>
