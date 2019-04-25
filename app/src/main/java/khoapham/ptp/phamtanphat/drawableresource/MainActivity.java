@@ -10,33 +10,41 @@ import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
 
-    ImageView imglevelist;
+    ImageView imglevelist,imgclip;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
         imglevelist = findViewById(R.id.imageviewLevellist);
-
-        final Drawable drawable = imglevelist.getDrawable();
-
-        imglevelist.setOnClickListener(new View.OnClickListener() {
+        imgclip = findViewById(R.id.imageClip);
+//
+//        final Drawable drawable = imglevelist.getDrawable();
+//
+//        imglevelist.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+////                imglevelist.setImageLevel(drawable.getLevel() + 10);
+//
+//                final Handler handler = new Handler();
+//                handler.postDelayed(new Runnable() {
+//                    @Override
+//                    public void run() {
+//                        if (drawable.getLevel() >= 100){
+//                            drawable.setLevel(0);
+//                        }
+//                        imglevelist.setImageLevel(drawable.getLevel() + 10);
+//                        handler.postDelayed(this,100);
+//
+//                    }
+//                },1000);
+//            }
+//        });
+        final Drawable drawable = imgclip.getDrawable();
+        imgclip.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                imglevelist.setImageLevel(drawable.getLevel() + 10);
-
-                final Handler handler = new Handler();
-                handler.postDelayed(new Runnable() {
-                    @Override
-                    public void run() {
-                        if (drawable.getLevel() >= 100){
-                            drawable.setLevel(0);
-                        }
-                        imglevelist.setImageLevel(drawable.getLevel() + 10);
-                        handler.postDelayed(this,100);
-
-                    }
-                },1000);
+                imgclip.setImageLevel(drawable.getLevel() + 500);
             }
         });
     }
