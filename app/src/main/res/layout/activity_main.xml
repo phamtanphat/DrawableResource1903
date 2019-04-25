@@ -15,7 +15,7 @@
         android:layout_width="60dp"
         android:layout_height="60dp" />
    <ImageView
-       android:src="@drawable/pin1"
+       android:src="@drawable/image_level_list"
        android:id="@+id/imageviewLevellist"
        android:layout_centerInParent="true"
        android:layout_width="100dp"

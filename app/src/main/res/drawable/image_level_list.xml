@@ -2,15 +2,12 @@
 <level-list
     xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:drawable="@drawable/pin1"
-        android:minLevel="0"
         android:maxLevel="20"/>
     <item android:drawable="@drawable/pin2"
-        android:minLevel="21"
         android:maxLevel="50"/>
     <item android:drawable="@drawable/pin3"
-        android:minLevel="51"
         android:maxLevel="80"/>
     <item android:drawable="@drawable/pin4"
-        android:minLevel="81"
         android:maxLevel="100"/>
+
 </level-list>
