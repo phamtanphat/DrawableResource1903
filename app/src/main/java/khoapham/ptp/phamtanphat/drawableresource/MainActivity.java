@@ -35,7 +35,6 @@ public class MainActivity extends AppCompatActivity {
                         imglevelist.setImageLevel(drawable.getLevel() + 10);
                         handler.postDelayed(this,100);
 
-
                     }
                 },1000);
             }
