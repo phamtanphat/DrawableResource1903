@@ -1,1 +1,0 @@
-# DrawableResource1903
